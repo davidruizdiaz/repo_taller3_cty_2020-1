@@ -1,0 +1,18 @@
+/*selector por nombre de etiqueta*/
+h1{
+	background: pink;
+	text-align: center;
+	width: 40%;
+	margin: 100px auto;
+	padding: 30px;
+	border: solid 2px black;
+	font-family: 'Kaushan Script', cursive;
+	box-shadow: 5px -3px 8px purple;
+}
+
+/*selector por id*/
+#botoncito{
+	width: 90%;
+	height: 40px;
+	font-size: 18px;
+}
