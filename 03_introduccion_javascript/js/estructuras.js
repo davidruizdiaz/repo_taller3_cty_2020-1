@@ -34,4 +34,4 @@ function promedio(a, b, c){
 }
 
 
-console.log( promedio(2,5,10) pink);
+console.log( promedio(2,5,10));
