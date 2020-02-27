@@ -1,0 +1,21 @@
+body{
+	width: 80%;
+	margin: 0 auto;
+	background: #E6FCFF;
+}
+
+#header{
+	text-align: center;
+}
+
+h2{
+	text-decoration: underline;
+	color: #E6FCE0;
+	text-shadow: -2px -2px 3px yellow, 2px 2px 2px red;
+	font-size: 2em;
+}
+
+li{
+	font-family: helvetica;
+	margin: 10px 0;
+}
