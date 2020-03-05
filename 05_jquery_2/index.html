@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio Jquery 2</title>
+
+	<!-- se linkea el atributo href arhivo estilo.css 
+		que esta en la carpeta css -->
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+	<h1>Tu peso en otro planeta</h1>
+
+	<p>No estas gordo, sólo estas en el planeta equivocado</p>
+
+	<select id="planetas">
+		<option value="">Seleccione una opción</option>
+		<option value="MER">Mercurio</option>
+		<option value="VEN">Venus</option>
+		<option value="MAR">Marte</option>
+	</select>
+	<br>	
+	<input type="number" id="peso">
+	<br>
+	<button id="btn">Calcular</button>
+
+
+	<p>
+		Su peso en: <span id="seleccion">pp</span> es <span id="resultado">xx</span>kg
+	</p>
+
+
+
+
+	<!-- se agregan los archivos javascript necesrios
+	para dar funcionalidad a la página -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>
