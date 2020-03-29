@@ -1,8 +1,7 @@
 
-// selecciona de todos los elementos que tengan la
-// clase hot y les asigna un evento click
-$(".hot").click(function(){
-	//console.log("Funciona el clic");
+// selecciona de todos los elementos li
+// y les asigna un evento click
+$("li").click( function(){
 	
 	// selecciona el elemento al que se le hizo click
 	// recupera su texto y lo asigna a la variable
@@ -12,4 +11,4 @@ $(".hot").click(function(){
 	// fue guardado en la variable
 	$('h3').text(texto);
 	
-});
+} );
