@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio JQuery</title>
+</head>
+<body>
+	
+	<input type="number" id="val-1">
+	<input type="number" id="val-2">
+	<button>Calcular</button>
+	<p></p>
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script>
+	$('button').click(function(){
+		let val_1 = parseInt($('#val-1').val());
+		let val_2 = parseInt($('#val-2').val());
+
+		$("p").text( val_1 + val_2 );
+	})
+</script>
+
+</body>
+</html>
